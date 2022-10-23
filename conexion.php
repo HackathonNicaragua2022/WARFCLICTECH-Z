@@ -4,6 +4,6 @@
     	echo "No hay conexión (". $conn->connect_errno . ")", $conn->mysqli_connect_error();
     }
     else{
-        echo "<script>alert('La conexión se estableció correctamente');</script>";
+        echo "Conexion exitosa"
     }
 ?>

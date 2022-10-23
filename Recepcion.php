@@ -29,6 +29,7 @@
             <caption name= "numero">$Numeroturno</caption>
             <br>
             <?php 
+                date_default_timezone_set('America/Costa_Rica');
                 $horayfecha = time();
                 echo date("d-m-Y (H:i:s)", $horayfecha);           
             ?>
